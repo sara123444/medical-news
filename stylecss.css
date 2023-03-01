@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+.login h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    ba(0,0,0,0.75);
+}
+.btn1{
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background: rgb(223,56,56);
+    color: white;
+}
+.btn1:hover{
+     background: brown;
+     transition: 0.5s;
+}
